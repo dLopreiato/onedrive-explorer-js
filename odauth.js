@@ -99,7 +99,7 @@ function getTokenFromCookie() {
 function setCookie(token, expiresInSeconds) {
   var expiration = new Date();
   expiration.setTime(expiration.getTime() + expiresInSeconds * 1000);
-  var cookie = "odauth=" + token +"; path=/; expires=" + expiration.toUTCString();
+  var cookie = "odauth=" + token +"; path=/onedrive-explorer-js/; expires=" + expiration.toUTCString();
 
   if (document.location.protocol.toLowerCase() == "https") {
     cookie = cookie + ";secure";
@@ -111,7 +111,7 @@ function setCookie(token, expiresInSeconds) {
 function clearCookie()
 {
   var expiration = new Date();
-  var cookie = "odauth=; path=/; expires=" + expiration.toUTCString();
+  var cookie = "odauth=; path=/onedrive-explorer-js/; expires=" + expiration.toUTCString();
   document.cookie = cookie;
 }
 
