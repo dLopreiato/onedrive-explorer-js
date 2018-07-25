@@ -1,14 +1,6 @@
 # OneDrive Explorer sample web app
 
-This sample illustrates the basic concepts for interacting with OneDrive via Microsoft Graph API to create a file explorer web app.
-
-[See it in action!](https://dev.onedrive.com/odx/index.html)
-
-Files included in this project:
-
-* index.html - A sample web app to view the contents of the signed in user's OneDrive and show the JSON structures returned by the API.
-* callback.html - A callback page used as part of the OAuth authenication flow.
-* odauth.js - A simple js library for handling the OAuth2 implicit grant flow for OneDrive. Called from index.html.
+Testing the question: is hosting this on GitHub pages secure? Can anyone just steal my API key and use it?
 
 ## License
 
